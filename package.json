@@ -1,0 +1,31 @@
+{
+  "name": "user-management-system",
+  "version": "1.0.0",
+  "description": "An Application built with NodeJS, ExpressJS &amp; MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiranjeevi-gorantla/user-management-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiranjeevi-gorantla/user-management-system/issues"
+  },
+  "homepage": "https://github.com/chiranjeevi-gorantla/user-management-system#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3",
+    "morgan": "^1.10.0"
+  }
+}
