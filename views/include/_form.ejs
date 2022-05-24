@@ -1,49 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRUD Application</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../assets/css/style.css">
-</head>
-<body>
-
-<!-------------------- Header ------------------>
-
-<header id="header">
-    <nav>
-        <div class="container">
-            <div class="text-center">
-                <a href="/" class="nav-brand text-dark">User Management System</a>
-            </div>
-        </div>
-    </nav>
-</header>
-
-<!------------------- /Header -------------------->
-
-<!-------------------- Main Site ------------------>
-
-<main id="site-main">
-    <div class="container">
-        <div class="box-nav d-flex justify-between">
-            <div class="filter">
-                <a href="/"><i class="fas fa-angle-double-left"></i> Users</a>
-            </div>
-            <div id="user_center" class="form-title text-center">
-                <h2 class="text-dark">New User</h2>
-                <span class="text-light">Fill the below form to creates new account</span>
-            </div>
-        </div>
-    </div>    
-
-<!-------------------- /Main Site ------------------>
-
 <!-------------------- Form Handling ------------------>
 
-<form method="post" id="update_user">
+<form method="post" id="add_user">
     <div class="new-user">
         <div class="form-group">
             <label for="name" class="text-light">Name</label>
@@ -85,8 +42,3 @@
         </div>
     </div>
 </form>
-</main>
-<!-------------------- / Form Handling ------------------>
-
-</body>
-</html>

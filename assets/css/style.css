@@ -215,13 +215,13 @@ table{
 }
 
 .radio input[type='radio']:checked + .radio-label:before{
-    background-color: #16db93;
+    background-color: rgb(216, 150, 84);
     box-shadow: inset 0 0 0 4px #e9ecef;
 }
 
 .radio input[type='radio']:focus + .radio-label:before{
     outline: none;
-    border-color:#16db93;
+    border-color:rgb(216, 150, 84);
 }
 
 .radio input[type='radio']:disabled + .radio-label:before{
