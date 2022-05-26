@@ -1,0 +1,13 @@
+var Usersdb = require("../model/model");
+
+// create and save new user
+exports.create = (req, res) => {};
+
+// retrieve and return all users & retrive and return a single user
+exports.find = (req, res) => {};
+
+// Update a user by specified user id
+exports.update = (req, res) => {};
+
+// Delete a user with specified user id
+exports.delete = (req, res) => {};
